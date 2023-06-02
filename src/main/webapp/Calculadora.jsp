@@ -29,7 +29,7 @@
             %>
             A subtra&ccedil;&atilde;o de <%=valorA%> - <%=valorB%> = <%=resultado%><p>
             <% } else {
-                if (request.getParameter("operacao").equals("produto")) {
+                if (request.getParameter("operacao").equals("multiplicacao")) {
                                 
                     resultado = calculadora.getProduto(valorA, valorB);
             %>
